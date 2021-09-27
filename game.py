@@ -1,6 +1,12 @@
 #game.py
 import random
-print ("Rock, Paper, Scissors, Shoot!")
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+x = os.getenv("user_name")
+print("Welcome "x" to my Rock-Paper-Scissors Game")
 
 user_choice = input("choose 'Rock' or 'Paper' or 'Scissors':")
 print("User Chose:")
