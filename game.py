@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 x = os.getenv("PLAYER_NAME")
-print("Welcome ",x," to my Rock-Paper-Scissors Game")
+print(x)
 
 # adapted code from Dominic Parente
 user_choice = input("choose 'Rock' or 'Paper' or 'Scissors':")
