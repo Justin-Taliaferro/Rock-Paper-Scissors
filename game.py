@@ -4,7 +4,7 @@ import random
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(".env")
 
 x = os.getenv("PLAYER_NAME")
 print("Welcome ",x," to my Rock-Paper-Scissors Game")
