@@ -1,5 +1,4 @@
 # Rock-Paper-Scissors
-# My First Python App
 
 An example Python application for someone to play the computer in a classic game of Rock, Paper, Scissors on windows.
 

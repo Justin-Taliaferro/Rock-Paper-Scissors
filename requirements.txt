@@ -1,0 +1,3 @@
+# this is the requirements text file
+
+python-dotenv
