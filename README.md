@@ -64,5 +64,5 @@ python game.py
 
 NOTE: Make sure to read the requirements.txt file to install the correct packages if you have any issues.
 
-Happy playing!
+Happy Playing!
 
