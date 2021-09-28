@@ -9,9 +9,15 @@ load_dotenv()
 x = os.getenv("PLAYER_NAME")
 print("Welcome ",x," to my Rock-Paper-Scissors Game")
 
+# adapted code from Dominic Parente
 user_choice = input("choose 'Rock' or 'Paper' or 'Scissors':")
-print("User Chose:")
-print(user_choice)
+if user_choice in ["Rock", "Paper", "Scissors"]:
+    print("User Chose:")
+    print(user_choice)
+else:
+    print("Your choice is invalid, try typing something else!")
+    print("Try Again")
+    exit()
 
 options = ["Rock","Paper","Scissors"]
 
